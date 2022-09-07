@@ -21,7 +21,6 @@ class Ninja(Aldeiadafolha):
     def get_tipo_ninja(self):
         if self.nome == 'Naruto':
             return f"{self.nome} se tornou o 7 Hokage e é casado com Hinata e possui dois filhos. Ele foi treinado por Jiraya"
-            # Ele sempre usa o jutsu {self.jutsu} e o seu grande sonho è {self.sonho}"
         if self.nome == 'Sasuke':
             return f"{self.nome} é um ninja com sede de vingança e é casado com a Sakura com quem teve uma filha. Ele foi treinado por Kakashi"
         if self.nome == 'Sakura':
